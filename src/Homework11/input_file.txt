@@ -1,0 +1,19 @@
+SAMPLE: 
+CARGO - TYPE # name # weight (without letters 'kg') # temperature(Fahrenheit)  
+CARRIER - name # address # TYPE
+TRANSPORTATION - cargoID, carrierID, owner, date
+
+--- CARGO BEGIN ---
+FOOD # apple # 8 # 20/10/2020 # 20
+CLOTHES # computer # 7 # oversize # plastic 
+--- CARGO END ---
+
+--- CARRIER BEGIN ---
+divi # Medikov10 # PLANE 
+dovo # nevski56 # SHIP
+--- CARRIER END ---
+
+--- TRANSPORTATION BEGIN---
+0 # 1 # description # Ivan # 20/10/2020
+1 # 0 # description123 # Ivan # 20/10/2021
+--- TRANSPORTATION END---
