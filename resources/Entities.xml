@@ -1,0 +1,44 @@
+<entities>
+    <cargoes>
+        <cargo id="1_a" type="FOOD">
+            <name>apple</name>
+            <weight>50</weight>
+            <expirationDate>20/02/2020</expirationDate>
+            <temperature>22</temperature>
+        </cargo>
+
+        <cargo id="2_a" type="CLOTHES">
+            <name>computer</name>
+            <weight>15</weight>
+            <size>oversize</size>
+            <material>plastic</material>
+        </cargo>
+    </cargoes>
+
+    <carriers>
+        <carrier id="1_b" type="PLANE">
+            <name>superDeliver</name>
+            <address>Medikoff 10</address>
+        </carrier>
+
+        <carrier id="2_b" type="TRAIN">
+            <name>megaDeliver</name>
+            <address>Nevskiy 100</address>
+        </carrier>
+    </carriers>
+
+    <transportations>
+        <transportation id="1_c" cargo_id="1_a" carrier_id="2_b">
+            <description>Vip order</description>
+            <billTo>Ivanoff Petr</billTo>
+            <beginDate>22/01/2020</beginDate>
+        </transportation>
+
+        <transportation id="2_c" cargo_id="2_a" carrier_id="1_b">
+            <description>simple order</description>
+            <billTo>Petroff Petr</billTo>
+            <beginDate>10/01/2020</beginDate>
+        </transportation>
+    </transportations>
+
+</entities>

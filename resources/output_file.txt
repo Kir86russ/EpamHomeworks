@@ -1,0 +1,8 @@
+---CARGOES---
+1#apple#10#FOOD#20/10/13#20
+
+---CARRIERS---
+1#vov#Nevski 10#PLANE
+
+---TRANSPORTATIONS---
+1#1#1#desc#Ivanoff#20/20/12
