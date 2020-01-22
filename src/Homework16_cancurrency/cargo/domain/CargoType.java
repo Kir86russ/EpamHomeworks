@@ -1,4 +1,4 @@
-package Homework10.cargo.domain;
+package Homework16_cancurrency.cargo.domain;
 
 public enum CargoType {
     FOOD,

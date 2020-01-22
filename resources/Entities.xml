@@ -3,11 +3,11 @@
         <cargo id="1_a" type="FOOD">
             <name>apple</name>
             <weight>50</weight>
-            <expirationDate>20/02/2020</expirationDate>
-            <temperature>22</temperature>
+            <expirationDate>20.02.2020</expirationDate>
+            <storeTemperature>22</storeTemperature>
         </cargo>
 
-        <cargo id="2_a" type="CLOTHES">
+        <cargo id="2_a" type="CLOTHERS">
             <name>computer</name>
             <weight>15</weight>
             <size>oversize</size>
@@ -30,14 +30,14 @@
     <transportations>
         <transportation id="1_c" cargo_id="1_a" carrier_id="2_b">
             <description>Vip order</description>
-            <billTo>Ivanoff Petr</billTo>
-            <beginDate>22/01/2020</beginDate>
+            <billto>Ivanoff Petr</billto>
+            <transportationBeginDate>22.01.2020</transportationBeginDate>
         </transportation>
 
         <transportation id="2_c" cargo_id="2_a" carrier_id="1_b">
             <description>simple order</description>
-            <billTo>Petroff Petr</billTo>
-            <beginDate>10/01/2020</beginDate>
+            <billto>Petroff Petr</billto>
+            <transportationBeginDate>10.01.2020</transportationBeginDate>
         </transportation>
     </transportations>
 
