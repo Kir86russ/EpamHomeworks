@@ -46,9 +46,4 @@ public class XmlDomFileDataInitorMultiThread extends XmlDomFileDataInitor {
         }
     }
 
-    public static void main(String[] args) throws InitStorageException {
-        XmlDomFileDataInitorMultiThread xmlDomFileDataInitorMultiThread = new XmlDomFileDataInitorMultiThread();
-        xmlDomFileDataInitorMultiThread.initStorage();
-
-    }
 }
